@@ -307,7 +307,7 @@ function getNetworkFromLogicalCorrelations(logical, embed, coords) {
         //Edges between extras
         ss.forEach(function (s) {
             ss.forEach(function  (t) {
-                if (s===t) { return; }
+                if (s===t || s.id>t.id) { return; } //avoid self links (loops) and only add the link from the smaller to the bigger
                 edges.push({
                     source:s,
                     target:t,
@@ -318,7 +318,7 @@ function getNetworkFromLogicalCorrelations(logical, embed, coords) {
         });
         tt.forEach(function (s) {
             tt.forEach(function  (t) {
-                if (s===t) { return; }
+                if (s===t || s.id>t.id) { return; } //avoid self links (loops) and only add the link from the smaller to the bigger
                 edges.push({
                     source:s,
                     target:t,
