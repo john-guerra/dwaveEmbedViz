@@ -1,0 +1,10 @@
+[
+    {"name": "Alejo", "gender": "M", "size": 3200, "mx": 200, "my": 50},
+    {"name": "Delfi", "gender": "F", "size": 2000, "mx": 200, "my": 100},
+    {"name": "John", "gender": "M", "size": 300, "mx": 200, "my": 200},
+    {"name": "John Alexis Guerra", "gender": "M", "size": 2500, "mx": 300, "my": 100},
+    {"name": "Caro", "gender": "F", "size": 1200, "mx": 300, "my": 200},
+    {"name": "Sonia", "gender": "F", "size": 500, "mx": 300, "my": 300},
+    {"name": "Mafe", "gender": "F", "size": 2800, "mx": 250, "my": 100}
+]
+
